@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arrays\CliCode.Challenge.Arrays\CliCode.Challenge.Arrays.csproj" />
+    <ProjectReference Include="..\BIT.Algorithms.Challenges\BIT.Algorithms.Challenges.csproj" />
+    <ProjectReference Include="..\BIT.Patterns.Singleton.NotThreadSafe\BIT.Patterns.Singleton.csproj" />
+    <ProjectReference Include="..\BIT.Patterns.Singleton\BIT.Patterns.Factory.csproj" />
+    <ProjectReference Include="..\BIT.Patterns.Strategy.Delegates\BIT.Patterns.Strategy.Delegates.csproj" />
+    <ProjectReference Include="..\BIT.Patterns.Strategy\BIT.Patterns.Strategy.Context.csproj" />
+  </ItemGroup>
+
+</Project>
